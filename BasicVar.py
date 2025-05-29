@@ -7,6 +7,8 @@ f = (1, 2, 3, 4, 5) #Type: tuple
 g = {'name': 'Alice', 'age': 30, 'alive': True} #Type: dict
 #NOTE: The type tuple is different from Array because it cannot be changed after being declared
 
+
+print('===================|Var Types|====================')
 print(type(a))
 print(type(b))
 print(type(c))
