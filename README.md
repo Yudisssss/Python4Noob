@@ -89,3 +89,9 @@ venv\Scripts\activate
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
+
+---
+
+<p align="center">
+    Tenha bons estudos!
+</p>
