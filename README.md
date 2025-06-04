@@ -14,4 +14,78 @@ Para Linux:
 
 
 Para Windows:  
-<a href="https://openai.com/api/"><img aligm="center" alt="C++" heigth="20" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" /></a> 
+<a href="https://python.org.br/instalacao-windows/"><img aligm="center" alt="C++" heigth="20" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" /></a> 
+
+## Criação de Ambiente
+> [!IMPORTANT]  
+> Criação de Ambiente para Linux 
+
+venv = Virtual Environment   
+Python =  é o interpretador Python do venv (uma cópia isolada).  
+Pip = é o gerenciador de pacotes do venv.  
+Activate = é um script que altera temporariamente o terminal para usar o venv.
+
+
+### Instalando dependecias
+```
+sudo apt install python3.12-venv
+```
+
+### Criação do Ambiente 
+```
+python3 -m venv {Nome_que_você_quiser}
+```
+
+### Ativação do Ambiente
+```
+source {Nome_da_Pasta}/bin/activate
+```
+
+### Ativação realizada com Sucesso
+```
+(venv) usuario@maquina:~/meuprojeto$
+```
+
+### Desativar Ambiente
+```
+deactivate
+```
+
+### Remover Ambiente
+```
+rm -rf {Nome_da_Pasta}
+```
+
+## ✅ Resumo rápido
+
+| Ação                   | Comando                                 |
+| ---------------------- | --------------------------------------- |
+| Criar venv             | `python3 -m venv venv`                  |
+| Ativar venv            | `source venv/bin/activate`              |
+| Instalar pacotes       | `pip install nome-do-pacote`            |
+| Desativar              | `deactivate`                            |
+| Remover                | `rm -rf venv`                           |
+| Trocar para outro venv | `source caminho/para/venv/bin/activate` |
+
+---
+
+> [!IMPORTANT]  
+> Criação de Ambiente para Windows
+
+### No Prompt de Comando (cmd):
+
+```
+venv\Scripts\activate
+```
+
+### No PowerShell:
+
+```
+.\venv\Scripts\Activate.ps1
+```
+
+ Se der erro de permissão no PowerShell, rode este comando **uma vez** como administrador:
+
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
