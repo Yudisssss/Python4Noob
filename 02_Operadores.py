@@ -49,3 +49,4 @@ print("O && é equivalente ao and em Python")
 print("O || é equivalente ao or em Python")
 print("O ! é equivalente ao not em Python")
 #---------------------------------------------------------------------------------------------
+
